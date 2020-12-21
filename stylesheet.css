@@ -1,5 +1,13 @@
-body{
-    background: #809FFF;
+body {
+	--back-color: #809FFF;
+}
+
+body#dark {
+	--back-color: #FAFB35;
+}
+
+body {
+	background-color: var(--back-color);
 }
 
 .center{
@@ -16,4 +24,34 @@ body{
 
 .SocialMediaFontColour{
     color: aliceblue;
+}
+
+.relative{
+    position: relative;
+}
+
+.left{
+    left: 10%;
+    position: absolute;
+}
+
+.right{
+    left: 65%;
+    position: absolute;
+}
+
+@media(max-width: 950px){
+    .left{
+        left: 10%;
+        position: absolute;
+    }
+    
+    .right{
+        left: 0%;
+        position: absolute;
+    }   
+}
+
+.easterEgg{
+    color: #809FFF;
 }
