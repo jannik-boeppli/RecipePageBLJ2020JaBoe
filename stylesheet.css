@@ -3,7 +3,7 @@ body {
 }
 
 body#dark {
-	--back-color: #FAFB35;
+	--back-color: #007710;
 }
 
 body {
@@ -54,4 +54,8 @@ body {
 
 .easterEgg{
     color: #809FFF;
+}
+
+.tranBack{
+    background-color: rgba(255, 0, 0, 0.5);
 }
