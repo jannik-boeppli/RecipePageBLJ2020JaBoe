@@ -1,13 +1,22 @@
 body {
-	--back-color: #809FFF;
+    --back-color: #1439a8;
+    --socialMedia-back-color: #003570;
+    --socialMedia-font-color: rgb(178, 218, 252);
+    --font-color: rgb(178, 218, 252);
 }
 
 body#dark {
-	--back-color: #007710;
+    --back-color: #007710;
+    --socialMedia-back-color: #5e1414;
+    --socialMedia-font-color: #ff6161;
+    --font-color: #000000;
 }
 
 body {
-	background-color: var(--back-color);
+    background-color: var(--back-color);
+    z-index: 0;
+    color: var(--font-color);
+    font-family: 'Andika New Basic', sans-serif;
 }
 
 .center{
@@ -19,11 +28,12 @@ body {
 }
 
 .SocialMediaBackground{
-    background-color: #003570;
+    background-color: var(--socialMedia-back-color);
+
 }
 
 .SocialMediaFontColour{
-    color: aliceblue;
+    color: var(--socialMedia-font-color);
 }
 
 .relative{
@@ -53,9 +63,12 @@ body {
 }
 
 .easterEgg{
-    color: #809FFF;
+    color: var(--back-color);
 }
 
 .tranBack{
-    background-color: rgba(255, 0, 0, 0.5);
+    background-color: rgba(168, 18, 18, 0.9);
+    padding: 20px 0px;
+    z-index: 10;
+    margin-top: -5vw;
 }
