@@ -23,7 +23,7 @@ body {
     text-align: center;
 }
 
-.topMargine30{
+.topMargin30{
     margin-top: 30px;
 }
 
@@ -46,20 +46,13 @@ body {
 }
 
 .right{
-    left: 65%;
-    position: absolute;
+margin-bottom: -1.5em;
 }
 
 @media(max-width: 950px){
-    .left{
-        left: 10%;
-        position: absolute;
-    }
-    
     .right{
-        left: 0%;
-        position: absolute;
-    }   
+        margin-bottom: 0vw;
+    }  
 }
 
 .easterEgg{
@@ -70,5 +63,5 @@ body {
     background-color: rgba(168, 18, 18, 0.9);
     padding: 20px 0px;
     z-index: 10;
-    margin-top: -5vw;
+    /*margin-top: -5vw;*/
 }
