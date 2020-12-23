@@ -1,24 +1,28 @@
 body {
-    --back-image: url("background/black.png");
+    --back-image: url("../background/black.png");
     --back-color: #1439a8;
     --socialMedia-back-color: #003570;
+    --trans-back-comment: rgba(0, 53, 112, 0.8);
     --socialMedia-font-color: rgb(178, 218, 252);
     --font-color: rgb(178, 218, 252);
+    --recipeTransBackgroung: rgba(0, 53, 112, 0.4);
 }
 
 body#dark {
-    --back-image: url("background/black.png");
+    --back-image: url("../background/green.png");
     --back-color: #007710;
     --socialMedia-back-color: #5e1414;
     --socialMedia-font-color: #ff6161;
     --font-color: #000000;
+    --recipeTransBackgroung: rgba(168, 18, 18, 0.4);
+    --trans-back-comment: rgba(94, 20, 20, 0.8);
 }
 
 body {
-   /* background-image: var(--back-image);
+    background-image: var(--back-image);
+    background-repeat: repeat;
    /* background-color: var(--back-color);*/
-   background-image: url('pics/black.png');
-   z-index: 0;
+    z-index: 0;
     color: var(--font-color);
     font-family: 'Andika New Basic', sans-serif;
 }
@@ -49,12 +53,14 @@ body {
 }
 
 .tranBack{
-    background-color: rgba(168, 18, 18, 0.9);
+    background-color: var( --trans-back-comment);
     padding: 20px 0px;
     z-index: 10;
     margin-top: -6vw;
 }
 
 .recipeTranBack{
-    background-color: rgba(0, 0, 0, 0.3);
+    background-color: var(--recipeTransBackgroung);
 }
+
+
