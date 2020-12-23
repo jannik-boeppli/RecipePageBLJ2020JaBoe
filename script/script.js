@@ -14,6 +14,9 @@ document.getElementById("toggler").onclick = function() {
 	}
 }
 
+
+
+
 // Set the date we're counting down to
 var countDownDate = new Date("Dec 25, 2020 00:00:00").getTime();
 
