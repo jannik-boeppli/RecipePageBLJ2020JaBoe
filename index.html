@@ -23,8 +23,7 @@
 <body>
     <header>
         <!--navbar -->
-        <nav class="navbar navbar-expand-lg navbar navbar-dark bg-dark sticky-top">
-
+        <nav class="navbar navbar-expand-lg navbar navbar-dark bg-dark fixed-top">
             <div class="navbarAbsolute">
                 <!--Collaps-->
                 <div class="collapse navbar-collapse " id="navbarNavDropdown">
@@ -54,6 +53,7 @@
     </header>
 
     <main>
+        <div class="unselectable"><br><br><br></div>
         <div class="center">
             <label id="toggler" class="easterEgg "> -merry christmas- </label>
         </div>
@@ -158,6 +158,7 @@
                 <div class="col-sm-1 col-lg-1"></div>
 
                 <div class="col-sm-3 col-lg-2 SocialMediaFontColour">
+                    <div class="unselectable"><br></div>
                     <div>Noser&nbsp;Young&nbsp;AG</div>
                     <div>Herostrasse&nbsp;12</div>
                     <div>CH-8048&nbsp;Zurich</div>
@@ -174,7 +175,9 @@
                     </a>
                     <div class="unselectable"><br></div>
                     <a href="/pdf/Rascals-recipe.pdf" download>
-                        <img alt="PDF download">
+                        <button class="button">
+                            Download recipe
+                        </button>
                     </a>
                 </div>
             </div>

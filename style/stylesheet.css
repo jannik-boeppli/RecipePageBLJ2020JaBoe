@@ -91,3 +91,8 @@ body {
     -ms-user-select: none;
     user-select: none;
 }
+
+.button{
+    border-radius: 12px;
+    background-color: var(--socialMedia-font-color);
+}
