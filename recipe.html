@@ -21,71 +21,85 @@
 </head>
 
 <body>
-    <!--navbar -->
-    <nav class="navbar navbar-expand-lg navbar navbar-dark bg-dark sticky-top">
+    <header>
+        <!--navbar -->
+        <nav class="navbar navbar-expand-lg navbar navbar-dark bg-dark sticky-top">
 
-        <div class="navbarAbsolute">
-            <!--Collaps-->
-            <div class="collapse navbar-collapse " id="navbarNavDropdown">
-                <ul class="navbar-nav">
+            <div class="navbarAbsolute">
+                <!--Collaps-->
+                <div class="collapse navbar-collapse " id="navbarNavDropdown">
+                    <ul class="navbar-nav">
 
-                    <li class="nav-item">
-                        <a class="nav-link" href="index.html">Home</a>
-                    </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Home</a>
+                        </li>
 
-                    <li class="nav-item active">
-                        <a class="nav-link" href="recipe.html">Recipe</a>
-                    </li>
+                        <li class="nav-item active">
+                            <a class="nav-link" href="recipe.html">Recipe</a>
+                        </li>
 
-                    <li class="nav-item">
-                        <a class="nav-link" href="contact.html">Contact</a>
-                    </li>
-                </ul>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+                    aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
             </div>
+            <div class="unselectable"><br><br></div>
+        </nav>
+    </header>
 
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
-                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
+    <main>
+        <div class="center">
+            <label id="toggler" class="easterEgg "> -merry christmas- </label>
         </div>
-        <br>
-        <br>
-    </nav>
 
-    <div class="center">
-        <label id="toggler" class="easterEgg "> -merry christmas- </label>
-    </div>
+        <div class="center">
+            <h1>Rascals-recipe</h1>
+        </div>
 
-    <div class="center">
-        <h1>Rascals-recipe</h1>
-    </div>
-
-    <div class="container-fluid">
-        <!--Vorschau, wie das Endpordukt aussehen koennte-->
-        <div class="row topMargin30">
-            <div class="col-lg-2 col-sm-1"></div>
-            <div class="col-lg-3 col-sm-10 recipeTranBack">
-                <img class="d-block w-100" src="pictures/IMG_3184.jpg" alt="picture">
-            </div>
-            <div class=" col-lg-0 col-sm-1 recipeTranBack"></div>
-                <div class="col-sm-1 recipeTranBack"></div>
+        <div class="container-fluid topMargin30">
+            <!--Vorschau, wie das Endpordukt aussehen koennte-->
+            <div class="row">
+                <div class="col-lg-2 col-sm-1"></div>
                 <div class="col-lg-3 col-sm-10 recipeTranBack">
+                    <div class="unselectable"><br></div>
+                    <img class="d-block w-100" src="pictures/IMG_3184.jpg" alt="picture">
+                </div>
+                <div class="col-lg-1 col-sm-1 recipeTranBackFill"></div>
+                <div class="col-lg-1 col-sm-1 recipeTranBackFill"></div>
+                <div class="col-lg-3 col-sm-10 recipeTranBack">
+                    <div class="unselectable"><br></div>
                     <h3>The endproduct</h3>
-                    <div>To create this delicious christmas cookies, you will need the following ingredients. It will take not more then about one or two hours. </div> 
+                    <div>To create this delicious christmas cookies, you will need the following ingredients. It will
+                        take
+                        not more then about one or two hours. </div>
+                    <div class="unselectable"><br></div>
                 </div>
                 <div class="col-lg-1 col-sm-1"></div>
-        </div>
-
-        <!--Zutatenliste-->
-
-        <div class="row topMargin30">
-            <div class="col-lg-2 col-sm-1 "></div>
-            <div class="col-lg-3 col-sm-10 recipeTranBack">
-                <img class="d-block w-100" src="pictures/IMG_3140.jpg" alt="picture">
             </div>
-            <div class=" col-lg-2 col-sm-1 recipeTranBack"></div>
-                <div class="col-sm-1 recipeTranBack"></div>
-                <div class="col-lg-4 col-sm-10 recipeTranBack">
+
+            <div class="row">
+                <div class="col-lg-2 col-sm-1"></div>
+                <div class="col-lg-8 col-sm-10 recipeTranBackFill unselectable"><br><br><br><br></div>
+            </div>
+
+            <!--Zutatenliste-->
+
+            <div class="row">
+                <div class="col-lg-2 col-sm-1 "></div>
+                <div class="col-lg-3 col-sm-10 recipeTranBack">
+                    <div class="unselectable"><br></div>
+                    <img class="d-block w-100" src="pictures/IMG_3140.jpg" alt="picture">
+                </div>
+                <div class="col-lg-1 col-sm-1 recipeTranBackFill"></div>
+                <div class="col-lg-1 col-sm-1 recipeTranBackFill"></div>
+                <div class="col-lg-3 col-sm-10 recipeTranBack">
+                    <div class="unselectable"><br></div>
                     <h3>The ingredients </h3>
                     <div> The ingredients for this recipe are:</div>
                     <ul>
@@ -97,118 +111,184 @@
                         <li>175g butter</li>
                         <li>150g currant jelly</li>
                     </ul>
+                    <div class="unselectable"><br></div>
                 </div>
                 <div class="col-lg-1 col-sm-1"></div>
-        </div>
-
-
-
-        <div class="row topMargin30">
-            <div class="col-lg-2 col-sm-1"></div>
-            <div class="col-lg-3 col-sm-10 recipeTranBack">
-                <img class="d-block w-100" src="pictures/IMG_3153.jpg" alt="picture">
             </div>
-            <div class=" col-lg-2 col-sm-1 recipeTranBack"></div>
-                <div class="col-sm-1 recipeTranBack"></div>
+
+            <div class="row">
+                <div class="col-lg-2 col-sm-1"></div>
+                <div class="col-lg-8 col-sm-10 recipeTranBackFill unselectable"><br><br><br><br></div>
+            </div>
+
+
+            <div class="row">
+                <div class="col-lg-2 col-sm-1"></div>
                 <div class="col-lg-3 col-sm-10 recipeTranBack">
+                    <div class="unselectable"><br></div>
+                    <img class="d-block w-100" src="pictures/IMG_3153.jpg" alt="picture">
+                </div>
+                <div class="col-lg-1 col-sm-1 recipeTranBackFill"></div>
+                <div class="col-lg-1 col-sm-1 recipeTranBackFill"></div>
+                <div class="col-lg-3 col-sm-10 recipeTranBack">
+                    <div class="unselectable"><br></div>
                     <h3>Step 1.</h3>
                     <div>First of you put about 175g of butter into the bowl and stir until peaks form.</div>
+                    <div class="unselectable"><br></div>
                 </div>
                 <div class="col-lg-1 col-sm-1"></div>
-        </div>
-
-
-
-
-        <div class="row topMargin30">
-            <div class="col-lg-2 col-sm-1"></div>
-            <div class="col-lg-3 col-sm-10 recipeTranBack">
-                <img class="d-block w-100" src="pictures/IMG_3159.jpg" alt="picture">
             </div>
-            <div class=" col-lg-2 col-sm-1 recipeTranBack"></div>
-                <div class="col-sm-1 recipeTranBack"></div>
-                <div class="col-lg-4 col-sm-10 recipeTranBack">
+
+            <div class="row">
+                <div class="col-lg-2 col-sm-1"></div>
+                <div class="col-lg-8 col-sm-10 recipeTranBackFill unselectable"><br><br><br><br></div>
+            </div>
+
+
+            <div class="row">
+                <div class="col-lg-2 col-sm-1"></div>
+                <div class="col-lg-3 col-sm-10 recipeTranBack">
+                    <div class="unselectable"><br></div>
+                    <img class="d-block w-100" src="pictures/IMG_3159.jpg" alt="picture">
+                </div>
+                <div class="col-lg-1 col-sm-1 recipeTranBackFill"></div>
+                <div class="col-lg-1 col-sm-1 recipeTranBackFill"></div>
+                <div class="col-lg-3 col-sm-10 recipeTranBack">
+                    <div class="unselectable"><br></div>
                     <h3>Step 2.</h3>
-                    <div>After that you can add 2 tablespoons of water, 80g powdered sugar, a pinch of salt and 1 coffee spoon vanilla sugar. Mix it for a while, then add 250g of flour and mix it another time.</div>
+                    <div>After that you can add 2 tablespoons of water, 80g powdered sugar, a pinch of salt and 1 coffee
+                        spoon vanilla sugar. Mix it for a while, then add 250g of flour and mix it another time.</div>
+                    <div class="unselectable"><br></div>
                 </div>
                 <div class="col-lg-1 col-sm-1"></div>
-        </div>
-
-
-
-
-        <div class="row topMargin30">
-            <div class="col-lg-2 col-sm-1"></div>
-            <div class="col-lg-3 col-sm-10 recipeTranBack">
-                <img class="d-block w-100" src="pictures/IMG_3162.jpg".jpg" alt="picture">
             </div>
-            <div class=" col-lg-2 col-sm-1 recipeTranBack"></div>
-                <div class="col-sm-1 recipeTranBack"></div>
-                <div class="col-lg-4 col-sm-10 recipeTranBack">
+
+            <div class="row">
+                <div class="col-lg-2 col-sm-1"></div>
+                <div class="col-lg-8 col-sm-10 recipeTranBackFill unselectable"><br><br><br><br></div>
+            </div>
+
+
+            <div class="row">
+                <div class="col-lg-2 col-sm-1"></div>
+                <div class="col-lg-3 col-sm-10 recipeTranBack">
+                    <div class="unselectable"><br></div>
+                    <img class="d-block w-100" src="pictures/IMG_3162.jpg" .jpg" alt="picture">
+                </div>
+                <div class="col-lg-1 col-sm-1 recipeTranBackFill"></div>
+                <div class="col-lg-1 col-sm-1 recipeTranBackFill"></div>
+                <div class="col-lg-3 col-sm-10 recipeTranBack">
+                    <div class="unselectable"><br></div>
                     <h3>Step 3.</h3>
-                    <div>When you think it is mixed enough, cover the bowl and put it into the freezer for about 10min, so that the dough is cool but not frozen.</div>
+                    <div>When you think it is mixed enough, cover the bowl and put it into the freezer for about 10min,
+                        so
+                        that the dough is cool but not frozen.</div>
+                    <div class="unselectable"><br></div>
                 </div>
                 <div class="col-lg-1 col-sm-1"></div>
-        </div>
-
-
-
-        <div class="row topMargin30">
-            <div class="col-lg-2 col-sm-1"></div>
-            <div class="col-lg-3 col-sm-10 recipeTranBack">
-                <img class="d-block w-100" src="pictures/IMG_3166.jpg" alt="picture">
             </div>
-            <div class=" col-lg-2 col-sm-1 recipeTranBack"></div>
-                <div class="col-sm-1 recipeTranBack"></div>
-                <div class="col-lg-4 col-sm-10 recipeTranBack">
+
+            <div class="row">
+                <div class="col-lg-2 col-sm-1"></div>
+                <div class="col-lg-8 col-sm-10 recipeTranBackFill unselectable"><br><br><br><br></div>
+            </div>
+
+            <div class="row">
+                <div class="col-lg-2 col-sm-1"></div>
+                <div class="col-lg-3 col-sm-10 recipeTranBack">
+                    <div class="unselectable"><br></div>
+                    <img class="d-block w-100" src="pictures/IMG_3166.jpg" alt="picture">
+                </div>
+                <div class="col-lg-1 col-sm-1 recipeTranBackFill"></div>
+                <div class="col-lg-1 col-sm-1 recipeTranBackFill"></div>
+                <div class="col-lg-3 col-sm-10 recipeTranBack">
+                    <div class="unselectable"><br></div>
                     <h3>Step 4.</h3>
-                    <div>Take some of the dough and put the other back into the freezer. Roll out the dough to about 2mm. When you rolled it out, you can cut out the dough with a form. Repeat this step until you don't have any more dough.</div>
+                    <div>Take some of the dough and put the other back into the freezer. Roll out the dough to about
+                        2mm.
+                        When you rolled it out, you can cut out the dough with a form. Repeat this step until you don't
+                        have
+                        any more dough.</div>
+                    <div class="unselectable"><br></div>
                 </div>
                 <div class="col-lg-1 col-sm-1"></div>
-        </div>
-
-        <div class="row topMargin30">
-            <div class="col-lg-2 col-sm-1"></div>
-            <div class="col-lg-3 col-sm-10 recipeTranBack">
-                <img class="d-block w-100" src="pictures/IMG_3170.jpg" alt="picture">
             </div>
-            <div class=" col-lg-2 col-sm-1 recipeTranBack"></div>
-                <div class="col-sm-1 recipeTranBack"></div>
-                <div class="col-lg-4 col-sm-10 recipeTranBack">
+
+            <div class="row">
+                <div class="col-lg-2 col-sm-1"></div>
+                <div class="col-lg-8 col-sm-10 recipeTranBackFill unselectable"><br><br><br><br></div>
+            </div>
+
+            <div class="row">
+                <div class="col-lg-2 col-sm-1"></div>
+                <div class="col-lg-3 col-sm-10 recipeTranBack">
+                    <div class="unselectable"><br></div>
+                    <img class="d-block w-100" src="pictures/IMG_3170.jpg" alt="picture">
+                </div>
+                <div class="col-lg-1 col-sm-1 recipeTranBackFill"></div>
+                <div class="col-lg-1 col-sm-1 recipeTranBackFill"></div>
+                <div class="col-lg-3 col-sm-10 recipeTranBack">
+                    <div class="unselectable"><br></div>
                     <h3>Step 5.</h3>
-                    <div>Make sure, that you have for each top part a bottom part. Then put oven tray into the oven for 5-8min by 180&deg;. </div>
+                    <div>Make sure, that you have for each top part a bottom part. Then put oven tray into the oven for
+                        5-8min by 180&deg;. </div>
+                    <div class="unselectable"><br></div>
                 </div>
                 <div class="col-lg-1 col-sm-1"></div>
-        </div>
-
-        <div class="row topMargin30">
-            <div class="col-lg-2 col-sm-1"></div>
-            <div class="col-lg-3 col-sm-10 recipeTranBack">
-                <img class="d-block w-100" src="pictures/IMG_3171.jpg" alt="picture">
             </div>
-            <div class=" col-lg-2 col-sm-1 recipeTranBack"></div>
-                <div class="col-sm-1 recipeTranBack"></div>
-                <div class="col-lg-4 col-sm-10 recipeTranBack">
+
+            <div class="row">
+                <div class="col-lg-2 col-sm-1"></div>
+                <div class="col-lg-8 col-sm-10 recipeTranBackFill unselectable"><br><br><br><br></div>
+            </div>
+
+            <div class="row">
+                <div class="col-lg-2 col-sm-1"></div>
+                <div class="col-lg-3 col-sm-10 recipeTranBack">
+                    <div class="unselectable"><br></div>
+                    <img class="d-block w-100" src="pictures/IMG_3171.jpg" alt="picture">
+                </div>
+                <div class="col-lg-1 col-sm-1 recipeTranBackFill"></div>
+                <div class="col-lg-1 col-sm-1 recipeTranBackFill"></div>
+                <div class="col-lg-3 col-sm-10 recipeTranBack">
+                    <div class="unselectable"><br></div>
                     <h3>Step 6.</h3>
-                    <div>After you picked the oven tray out, you can start to flip the bottom part and put some currant jelly on it and cover it with the top part.</div>
+                    <div>After you picked the oven tray out, you can start to flip the bottom part and put some currant
+                        jelly on it and cover it with the top part.</div>
+                    <div class="unselectable"><br></div>
                 </div>
                 <div class="col-lg-1 col-sm-1"></div>
-        </div>
-
-        <div class="row topMargin30">
-            <div class="col-lg-2 col-sm-1"></div>
-            <div class="col-lg-3 col-sm-10 recipeTranBack">
-                <img class="d-block w-100" src="pictures/IMG_3189.jpg" alt="picture">
             </div>
-            <div class=" col-lg-2 col-sm-1 recipeTranBack"></div>
-                <div class="col-sm-1 recipeTranBack"></div>
-                <div class="col-lg-4 col-sm-10 recipeTranBack">
+
+            <div class="row">
+                <div class="col-lg-2 col-sm-1"></div>
+                <div class="col-lg-8 col-sm-10 recipeTranBackFill unselectable"><br><br><br><br></div>
+            </div>
+
+            <div class="row">
+                <div class="col-lg-2 col-sm-1"></div>
+                <div class="col-lg-3 col-sm-10 recipeTranBack">
+                    <div class="unselectable"><br></div>
+                    <img class="d-block w-100" src="pictures/IMG_3189.jpg" alt="picture">
+                </div>
+                <div class="col-lg-1 col-sm-1 recipeTranBackFill"></div>
+                <div class="col-lg-1 col-sm-1 recipeTranBackFill"></div>
+                <div class="col-lg-3 col-sm-10 recipeTranBack">
+                    <div class="unselectable"><br></div>
                     <h3>Step 7.</h3>
-                    <div>If you want, you can sprinkle some more powdered sugar over the rascals. When they are no longer hot, you can put them into a box.</div>
+                    <div>If you want, you can sprinkle some more powdered sugar over the rascals. When they are no
+                        longer
+                        hot, you can put them into a box.</div>
+                    <div class="unselectable"><br></div>
                 </div>
                 <div class="col-lg-1 col-sm-1"></div>
-        </div>
+            </div>
 
+            <div class="row">
+                <div class="col-lg-2 col-sm-1"></div>
+                <div class="col-lg-8 col-sm-10 recipeTranBackFill unselectable"><br><br><br><br></div>
+            </div>
+        </div>
 
 
         <div class="container relative SocialMediaBackground">
@@ -222,22 +302,34 @@
                     <div>CH-8048&nbsp;Zurich</div>
                     <div>zuerich@noseryoung.ch</div>
                     <div>+41&nbsp;31&nbsp;917&nbsp;53&nbsp;80</div>
-                    <br><br>
+                    <div class="unselectable"><br><br></div>
                 </div>
                 <div class="col-sm-1 col-lg-5"></div>
                 <div class="col-sm-4 col-lg-4 ">
-                    <br>
+                    <div class="unselectable"><br></div>
                     <a target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/noseryoung/">
                         <img class="SocialMedia" src="pictures/instagram_icon-700x573.png"
                             alt="click_on_this_very_important_link">
                     </a>
-                    <br>
+                    <div class="unselectable"><br></div>
                     <a href="/pdf/Rascals-recipe.pdf" download>
                         <img alt="PDF download">
                     </a>
                 </div>
             </div>
         </div>
+    </main>
+
+
+    <footer class="page-footer font-small mdb-color fixed-bottom bg-dark">
+
+        <div class="center unselectable">
+            <i class="fa fa-copyright footercolor" aria-hidden="true">
+                2020&nbsp;Jannik&nbsp;Boeppli |
+                All&nbsp;Rights&nbsp;reserved
+            </i>
+    </footer>
+    </div>
     <script src="script/script.js"></script>
 </body>
 
